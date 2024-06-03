@@ -32,7 +32,7 @@
 		
         <p>In this paper, we present <em>LDAI</em>em>, a mixed generative-predictive DNN framework aimed at repairing long-duration corrupted audio fragments in musical sequences. The proposed pipeline incorporates a convolutional encoder-decoder structure for waveform mapping, and a low-level conditional WGAN for latent inpainting. The motivation for splitting the process into a predictive task and a generative task, is to reduce the effort required by the latter, thus ensuring robust and fast training convergence while providing richer musical note generation.</p>
 
-        <h3>Small gap (375 ms)</h3>
+        <h3>1024 ms gap</h3>
         
         <div class='playlist'>
 		    <div class='labeled-audio'><p class='text'>clean (reference)</p>
@@ -48,75 +48,97 @@
 	<hr>
         <div class='playlist'>
 		    <div class='labeled-audio'><p class='text'>clean (reference)</p>
-                <audio preload='metadata' controls><source src='samples/small_sample_2/clean_S_2.wav'></audio>
+                <audio preload='metadata' controls><source src='SAMPLES/waveform81_clean.wav' type='audio/mpeg'></audio>
             </div>
 		    <div class='labeled-audio'><p class='text'>corrupted</p>
-                <audio preload='metadata' controls><source src='samples/small_sample_2/lossy_S_2.wav' type='audio/mpeg'></audio>
+                <audio preload='metadata' controls><source src='SAMPLES/waveform81_lossy.wav' type='audio/mpeg'></audio>
             </div>
 		    <div class='labeled-audio'><p class='text'>restored</p>
-                <audio preload='metadata' controls><source src='samples/small_sample_2/bin2bin_midi_S_2.wav' type='audio/mpeg'></audio>
+                <audio preload='metadata' controls><source src='SAMPLES/waveform81_restored.wav' type='audio/mpeg'></audio>
             </div>
         </div>
-	<hr>	
+	<hr
         <div class='playlist'>
 		    <div class='labeled-audio'><p class='text'>clean (reference)</p>
-                <audio preload='metadata' controls><source src='samples/small_sample_3/clean_S_3.wav' type='audio/mpeg'></audio>
+                <audio preload='metadata' controls><source src='SAMPLES/waveform81_clean.wav' type='audio/mpeg'></audio>
             </div>
 		    <div class='labeled-audio'><p class='text'>corrupted</p>
-                <audio preload='metadata' controls><source src='samples/small_sample_3/lossy_S_3.wav' type='audio/mpeg'></audio>
+                <audio preload='metadata' controls><source src='SAMPLES/waveform81_lossy.wav' type='audio/mpeg'></audio>
             </div>
 		    <div class='labeled-audio'><p class='text'>restored</p>
-                <audio preload='metadata' controls><source src='samples/small_sample_3/bin2bin_midi_S_3.wav' type='audio/mpeg'></audio>
-            </div>
-        </div>
-	<hr>	
-        <div class='playlist'>
-		    <div class='labeled-audio'><p class='text'>clean (reference)</p>
-                <audio preload='metadata' controls><source src='samples/small_sample_4/clean_S_4.wav' type='audio/mpeg'></audio>
-            </div>
-		    <div class='labeled-audio'><p class='text'>corrupted</p>
-                <audio preload='metadata' controls><source src='samples/small_sample_4/lossy_S_4.wav' type='audio/mpeg'></audio>
-            </div>
-		    <div class='labeled-audio'><p class='text'>restored</p>
-                <audio preload='metadata' controls><source src='samples/small_sample_4/bin2bin_midi_S_4.wav' type='audio/mpeg'></audio>
-            </div>
-        </div>
-		
-        <h3>Medium gap (750 ms)</h3>
-        
-        <div class='playlist'>
-		    <div class='labeled-audio'><p class='text'>clean (reference)</p>
-                <audio preload='metadata' controls><source src='samples/medium_sample_1/clean_M_1.wav' type='audio/mpeg'></audio>
-            </div>
-		    <div class='labeled-audio'><p class='text'>corrupted</p>
-                <audio preload='metadata' controls><source src='samples/medium_sample_1/lossy_M_1.wav' type='audio/mpeg'></audio>
-            </div>
-		    <div class='labeled-audio'><p class='text'>restored</p>
-                <audio preload='metadata' controls><source src='samples/medium_sample_1/bin2bin_midi_M_1.wav' type='audio/mpeg'></audio>
+                <audio preload='metadata' controls><source src='SAMPLES/waveform81_restored.wav' type='audio/mpeg'></audio>
             </div>
         </div>
 	<hr>
         <div class='playlist'>
 		    <div class='labeled-audio'><p class='text'>clean (reference)</p>
-                <audio preload='metadata' controls><source src='samples/medium_sample_2/clean_M_2.wav' type='audio/mpeg'></audio>
+                <audio preload='metadata' controls><source src='SAMPLES/waveform81_clean.wav' type='audio/mpeg'></audio>
             </div>
 		    <div class='labeled-audio'><p class='text'>corrupted</p>
-                <audio preload='metadata' controls><source src='samples/medium_sample_2/lossy_M_2.wav' type='audio/mpeg'></audio>
+                <audio preload='metadata' controls><source src='SAMPLES/waveform81_lossy.wav' type='audio/mpeg'></audio>
             </div>
 		    <div class='labeled-audio'><p class='text'>restored</p>
-                <audio preload='metadata' controls><source src='samples/medium_sample_2/bin2bin_midi_M_2.wav' type='audio/mpeg'></audio>
+                <audio preload='metadata' controls><source src='SAMPLES/waveform81_restored.wav' type='audio/mpeg'></audio>
             </div>
         </div>
 	<hr>
         <div class='playlist'>
 		    <div class='labeled-audio'><p class='text'>clean (reference)</p>
-                <audio preload='metadata' controls><source src='samples/medium_sample_3/clean_M_3.wav' type='audio/mpeg'></audio>
+                <audio preload='metadata' controls><source src='SAMPLES/waveform81_clean.wav' type='audio/mpeg'></audio>
             </div>
 		    <div class='labeled-audio'><p class='text'>corrupted</p>
-                <audio preload='metadata' controls><source src='samples/medium_sample_3/lossy_M_3.wav' type='audio/mpeg'></audio>
+                <audio preload='metadata' controls><source src='SAMPLES/waveform81_lossy.wav' type='audio/mpeg'></audio>
             </div>
 		    <div class='labeled-audio'><p class='text'>restored</p>
-                <audio preload='metadata' controls><source src='samples/medium_sample_3/bin2bin_midi_M_3.wav' type='audio/mpeg'></audio>
+                <audio preload='metadata' controls><source src='SAMPLES/waveform81_restored.wav' type='audio/mpeg'></audio>
+            </div>
+        </div>
+	<hr>
+        <div class='playlist'>
+		    <div class='labeled-audio'><p class='text'>clean (reference)</p>
+                <audio preload='metadata' controls><source src='SAMPLES/waveform81_clean.wav' type='audio/mpeg'></audio>
+            </div>
+		    <div class='labeled-audio'><p class='text'>corrupted</p>
+                <audio preload='metadata' controls><source src='SAMPLES/waveform81_lossy.wav' type='audio/mpeg'></audio>
+            </div>
+		    <div class='labeled-audio'><p class='text'>restored</p>
+                <audio preload='metadata' controls><source src='SAMPLES/waveform81_restored.wav' type='audio/mpeg'></audio>
+            </div>
+        </div>
+	<hr>
+        <div class='playlist'>
+		    <div class='labeled-audio'><p class='text'>clean (reference)</p>
+                <audio preload='metadata' controls><source src='SAMPLES/waveform81_clean.wav' type='audio/mpeg'></audio>
+            </div>
+		    <div class='labeled-audio'><p class='text'>corrupted</p>
+                <audio preload='metadata' controls><source src='SAMPLES/waveform81_lossy.wav' type='audio/mpeg'></audio>
+            </div>
+		    <div class='labeled-audio'><p class='text'>restored</p>
+                <audio preload='metadata' controls><source src='SAMPLES/waveform81_restored.wav' type='audio/mpeg'></audio>
+            </div>
+        </div>
+	<hr>
+        <div class='playlist'>
+		    <div class='labeled-audio'><p class='text'>clean (reference)</p>
+                <audio preload='metadata' controls><source src='SAMPLES/waveform81_clean.wav' type='audio/mpeg'></audio>
+            </div>
+		    <div class='labeled-audio'><p class='text'>corrupted</p>
+                <audio preload='metadata' controls><source src='SAMPLES/waveform81_lossy.wav' type='audio/mpeg'></audio>
+            </div>
+		    <div class='labeled-audio'><p class='text'>restored</p>
+                <audio preload='metadata' controls><source src='SAMPLES/waveform81_restored.wav' type='audio/mpeg'></audio>
+            </div>
+        </div>
+	<hr>
+        <div class='playlist'>
+		    <div class='labeled-audio'><p class='text'>clean (reference)</p>
+                <audio preload='metadata' controls><source src='SAMPLES/waveform81_clean.wav' type='audio/mpeg'></audio>
+            </div>
+		    <div class='labeled-audio'><p class='text'>corrupted</p>
+                <audio preload='metadata' controls><source src='SAMPLES/waveform81_lossy.wav' type='audio/mpeg'></audio>
+            </div>
+		    <div class='labeled-audio'><p class='text'>restored</p>
+                <audio preload='metadata' controls><source src='SAMPLES/waveform81_restored.wav' type='audio/mpeg'></audio>
             </div>
         </div>
 		
