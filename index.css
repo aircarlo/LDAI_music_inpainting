@@ -12,7 +12,7 @@
 
 body {
     /*background-color: rgb(253, 253, 254);*/
-	background-color: rgb(245, 250, 245);
+    background-color: rgb(245, 250, 245);
     margin: 50px 0px;
     min-width: 300px;
 }
@@ -55,9 +55,10 @@ h3 {
 }
 
 h4 {
+    text-align: center;
     font-size: 16px;
     font-weight: 400;
-    margin: 10px 0px 10px 0px;
+    margin: 12px 0px 10px 0px;
 }
 
 ul {
@@ -180,7 +181,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px; /* Set the desired height */
+  height: 410px; /* Set the desired height */
 }
 
 .image-container img {
