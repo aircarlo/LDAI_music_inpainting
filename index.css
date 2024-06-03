@@ -180,7 +180,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 290px; /* Set the desired height */
+  height: 400px; /* Set the desired height */
 }
 
 .image-container img {
