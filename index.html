@@ -30,7 +30,7 @@
 		  <img src="img/b2b_midi.png" alt="Image Description">
 		</div>
 		
-        <p>The <em>bin2bin</em> architecture is composed of a U-Net for CQT spectrogram inpainting (<em>G</em>). Multi-objective loss for training the U-Net is obtained by ensembling a <em>PatchGAN</em> discriminator BCEloss, along with a <em>Spectral Convergence</em> loss <em>L<sub>SC</sub></em>, and the MSE between the true, input-aligned piano roll, and that obtained from a pitch estimation module.</p>
+        <p>In this paper, we present <em>LDAI</em>em>, a mixed generative-predictive DNN framework aimed at repairing long-duration corrupted audio fragments in musical sequences. The proposed pipeline incorporates a convolutional encoder-decoder structure for waveform mapping, and a low-level conditional WGAN for latent inpainting. The motivation for splitting the process into a predictive task and a generative task, is to reduce the effort required by the latter, thus ensuring robust and fast training convergence while providing richer musical note generation.</p>
 
         <h3>Small gap (375 ms)</h3>
         
